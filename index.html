@@ -409,67 +409,67 @@
     </div>
     <p class="fig-caption" style="margin-top:0.5rem; font-style:italic; font-size:0.74rem; color:#778899;">Figura 2 — Escala ISM: cinco níveis de maturidade sustentável por ODS. Meta Agenda 2030: ISM ≥ 4,0.</p>
 
-    <!-- Figura: radar ISM por município -->
+    <!-- Figura: radar ISM por município — todos os 4 municípios-piloto -->
+    <!-- Centro (200,185), eixo 65px. Vetores: ODS7(0,-1), ODS11(0.951,-0.309), ODS13(0.588,0.809), ODS14(-0.588,0.809), ODS17(-0.951,-0.309) -->
+    <!-- Scores: SL(2.4/2.8/2.6/3.0/3.2) SA(1.8/2.4/2.2/2.6/2.4) HC(2.2/2.0/2.8/3.0/3.0) T(3.2/3.4/3.6/2.8/3.4) -->
     <div class="fig-wrap" style="margin-top:1.2rem;">
-      <svg viewBox="0 0 420 260" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:420px;">
-        <text x="210" y="20" font-family="Arial" font-size="11" fill="#1a5c35" text-anchor="middle" font-weight="700">Radar ISM-ODS · Municípios-piloto (exemplo)</text>
-        <!-- Axes labels -->
-        <text x="210" y="46" font-family="Arial" font-size="9.5" fill="#445566" text-anchor="middle">ODS 7</text>
-        <text x="370" y="160" font-family="Arial" font-size="9.5" fill="#445566" text-anchor="start">ODS 11</text>
-        <text x="316" y="246" font-family="Arial" font-size="9.5" fill="#445566" text-anchor="middle">ODS 13</text>
-        <text x="96" y="246" font-family="Arial" font-size="9.5" fill="#445566" text-anchor="middle">ODS 14</text>
-        <text x="28" y="160" font-family="Arial" font-size="9.5" fill="#445566" text-anchor="end">ODS 17</text>
-        <!-- Center -->
-        <!-- Grid circles (5 levels) -->
-        <!-- Level 1 -->
-        <polygon points="210,185 224,192 218,207 202,207 196,192" fill="none" stroke="#ddd" stroke-width="1"/>
-        <!-- Level 2 -->
-        <polygon points="210,170 238,184 226,214 194,214 182,184" fill="none" stroke="#ddd" stroke-width="1"/>
-        <!-- Level 3 -->
-        <polygon points="210,155 252,176 234,221 186,221 168,176" fill="none" stroke="#ddd" stroke-width="1"/>
-        <!-- Level 4 -->
-        <polygon points="210,140 266,168 242,228 178,228 154,168" fill="none" stroke="#ddd" stroke-width="1"/>
-        <!-- Level 5 = outer -->
-        <polygon points="210,120 280,160 250,235 170,235 140,160" fill="none" stroke="#bbb" stroke-width="1.2"/>
-        <!-- Axes -->
-        <line x1="210" y1="190" x2="210" y2="120" stroke="#bbb" stroke-width="1"/>
-        <line x1="210" y1="190" x2="280" y2="160" stroke="#bbb" stroke-width="1"/>
-        <line x1="210" y1="190" x2="250" y2="235" stroke="#bbb" stroke-width="1"/>
-        <line x1="210" y1="190" x2="170" y2="235" stroke="#bbb" stroke-width="1"/>
-        <line x1="210" y1="190" x2="140" y2="160" stroke="#bbb" stroke-width="1"/>
-        <!-- São Luís (ISM scores: ODS7=2.4, ODS11=2.8, ODS13=2.6, ODS14=3.0, ODS17=3.2) -->
-        <!-- Mapping: score/5 * axis_length, along each axis from center 210,190 -->
-        <!-- ODS7 up: center+score*14px up = 190 - (2.4/5)*70 = 190-33.6=156.4 → 210,156 -->
-        <!-- ODS11 right: 210+cos(-18°)*score*14, 190+sin(-18°)*score*14 → complex, simplify to pentagon coords -->
-        <!-- Let's just place approximate polygon for 3 municipalities -->
-        <!-- São Luís scores ~: ODS7=2.4→ pos along axis 0.48*70=33.6 from center -->
-        <!-- Pentagon axes from center 210,190: up=0°, right=72°, bottom-right=144°, bottom-left=216°, left=288° -->
-        <!-- Axis vectors: up(0,-1), right+down(0.951,-0.309), rightdown(0.588,0.809), leftdown(-0.588,0.809), left(-0.951,-0.309) -->
-        <!-- São Luís: ODS7=2.4, ODS11=2.8, ODS13=2.6, ODS14=3.0, ODS17=3.2 | max=5, range=70px -->
-        <!-- Points: ODS7: 210+0*33.6, 190+(-1)*33.6 = 210,156.4 -->
-        <!-- ODS11: 210+(0.951)*39.2, 190+(-0.309)*39.2 = 247.3,177.9 -->
-        <!-- ODS13: 210+(0.588)*36.4, 190+(0.809)*36.4 = 231.4,219.4 -->
-        <!-- ODS14: 210+(-0.588)*42, 190+(0.809)*42 = 185.3,224 -->
-        <!-- ODS17: 210+(-0.951)*44.8, 190+(-0.309)*44.8 = 167.4,176.1 -->
-        <polygon points="210,156 247,178 231,219 185,224 167,176" fill="rgba(46,139,87,0.18)" stroke="#2e8b57" stroke-width="2"/>
-        <!-- Tutóia: ODS7=3.2, ODS11=3.5, ODS13=3.6, ODS14=2.8, ODS17=3.4 -->
-        <!-- ODS7: 190-0.64*70=190-44.8→145.2 → 210,145 -->
-        <!-- ODS11: 210+0.951*49, 190-0.309*49 = 256.6,174.8 -->
-        <!-- ODS13: 210+0.588*50.4, 190+0.809*50.4 = 239.6,230.8 -->
-        <!-- ODS14: 210-0.588*39.2, 190+0.809*39.2 = 186.9,221.7 -->
-        <!-- ODS17: 210-0.951*47.6, 190-0.309*47.6 = 164.7,175.3 -->
-        <polygon points="210,145 257,175 240,231 187,222 165,175" fill="rgba(37,99,174,0.14)" stroke="#2563ae" stroke-width="2" stroke-dasharray="5,3"/>
-        <!-- Legend -->
-        <rect x="118" y="90" width="12" height="4" fill="#2e8b57" rx="2"/>
-        <text x="133" y="95" font-family="Arial" font-size="8.5" fill="#2c3e55">São Luís</text>
-        <line x1="118" y1="104" x2="130" y2="104" stroke="#2563ae" stroke-width="2" stroke-dasharray="4,2"/>
-        <text x="133" y="107" font-family="Arial" font-size="8.5" fill="#2c3e55">Tutóia</text>
-        <!-- Score labels on axes -->
-        <text x="200" y="169" font-family="Arial" font-size="8" fill="#7a9a7a">3</text>
-        <text x="200" y="183" font-family="Arial" font-size="8" fill="#7a9a7a">2</text>
-        <text x="200" y="197" font-family="Arial" font-size="8" fill="#7a9a7a">1</text>
+      <svg viewBox="0 0 400 295" xmlns="http://www.w3.org/2000/svg" style="width:100%;max-width:420px;">
+        <!-- Título -->
+        <text x="200" y="16" font-family="Arial" font-size="11" fill="#1a5c35" text-anchor="middle" font-weight="700">Radar ISM-ODS · 4 Municípios-piloto · Escala 1–5</text>
+        <!-- Rótulos dos eixos ODS -->
+        <text x="200" y="55" font-family="Arial" font-size="9" fill="#1a5c35" text-anchor="middle" font-weight="700">ODS 7</text>
+        <text x="200" y="65" font-family="Arial" font-size="7.5" fill="#556677" text-anchor="middle">Energia Limpa</text>
+        <text x="271" y="163" font-family="Arial" font-size="9" fill="#1a5c35" text-anchor="start" font-weight="700">ODS 11</text>
+        <text x="271" y="173" font-family="Arial" font-size="7.5" fill="#556677" text-anchor="start">Cidades Sust.</text>
+        <text x="238" y="249" font-family="Arial" font-size="9" fill="#1a5c35" text-anchor="middle" font-weight="700">ODS 13</text>
+        <text x="238" y="259" font-family="Arial" font-size="7.5" fill="#556677" text-anchor="middle">Ação Climática</text>
+        <text x="162" y="249" font-family="Arial" font-size="9" fill="#1a5c35" text-anchor="middle" font-weight="700">ODS 14</text>
+        <text x="162" y="259" font-family="Arial" font-size="7.5" fill="#556677" text-anchor="middle">Vida na Água</text>
+        <text x="129" y="163" font-family="Arial" font-size="9" fill="#1a5c35" text-anchor="end" font-weight="700">ODS 17</text>
+        <text x="129" y="173" font-family="Arial" font-size="7.5" fill="#556677" text-anchor="end">Parcerias</text>
+        <!-- Grade (níveis 1–5) -->
+        <polygon points="200,172 212,181 208,196 192,196 188,181" fill="none" stroke="#f0f0f0" stroke-width="1"/>
+        <polygon points="200,159 225,177 215,206 185,206 175,177" fill="none" stroke="#e5e5e5" stroke-width="1"/>
+        <polygon points="200,146 237,173 223,217 177,217 163,173" fill="none" stroke="#ddd" stroke-width="1"/>
+        <!-- Nível 4 = Meta 4,0 (laranja tracejado) -->
+        <polygon points="200,133 250,169 231,227 169,227 151,169" fill="none" stroke="#e07b00" stroke-width="1.2" stroke-dasharray="5,3"/>
+        <text x="252" y="168" font-family="Arial" font-size="7" fill="#e07b00">Meta 4,0</text>
+        <polygon points="200,120 262,165 238,238 162,238 138,165" fill="none" stroke="#ccc" stroke-width="1"/>
+        <!-- Eixos do centro (200,185) até nível 5 -->
+        <line x1="200" y1="185" x2="200" y2="120" stroke="#ccc" stroke-width="1"/>
+        <line x1="200" y1="185" x2="262" y2="165" stroke="#ccc" stroke-width="1"/>
+        <line x1="200" y1="185" x2="238" y2="238" stroke="#ccc" stroke-width="1"/>
+        <line x1="200" y1="185" x2="162" y2="238" stroke="#ccc" stroke-width="1"/>
+        <line x1="200" y1="185" x2="138" y2="165" stroke="#ccc" stroke-width="1"/>
+        <!-- Marcadores de escala no eixo ODS 7 -->
+        <text x="195" y="173" font-family="Arial" font-size="7" fill="#bbb" text-anchor="end">1</text>
+        <text x="195" y="160" font-family="Arial" font-size="7" fill="#bbb" text-anchor="end">2</text>
+        <text x="195" y="147" font-family="Arial" font-size="7" fill="#bbb" text-anchor="end">3</text>
+        <text x="195" y="134" font-family="Arial" font-size="7" fill="#e07b00" text-anchor="end">4</text>
+        <!-- Polígonos dos municípios (do menor para o maior ISM) -->
+        <!-- Santo Amaro ISM 2,28 — laranja tracejado -->
+        <polygon points="200,162 230,175 217,208 180,212 170,175" fill="rgba(224,123,0,0.08)" stroke="#e07b00" stroke-width="1.5" stroke-dasharray="4,3"/>
+        <!-- Humberto de Campos ISM 2,68 — azul-petróleo pontilhado | ODS14=3.4: d=44.2→(174,221) -->
+        <polygon points="200,156 225,177 221,214 174,221 163,173" fill="rgba(0,127,140,0.08)" stroke="#007f8c" stroke-width="1.5" stroke-dasharray="3,3"/>
+        <!-- São Luís ISM 2,80 — verde contínuo -->
+        <polygon points="200,154 235,174 220,212 177,217 160,172" fill="rgba(46,139,87,0.12)" stroke="#2e8b57" stroke-width="2"/>
+        <!-- Tutóia ISM 3,28 — azul tracejado longo -->
+        <polygon points="200,143 242,171 228,223 179,214 158,171" fill="rgba(37,99,174,0.1)" stroke="#2563ae" stroke-width="2" stroke-dasharray="7,3"/>
+        <!-- Legenda em duas linhas na parte inferior -->
+        <rect x="25" y="272" width="10" height="4" fill="#2e8b57" rx="2"/>
+        <text x="38" y="278" font-family="Arial" font-size="8" fill="#2c3e55" font-weight="600">São Luís</text>
+        <text x="84" y="278" font-family="Arial" font-size="7.5" fill="#778899">ISM 2,80</text>
+        <line x1="193" y1="274" x2="203" y2="274" stroke="#e07b00" stroke-width="1.5" stroke-dasharray="4,2"/>
+        <text x="206" y="278" font-family="Arial" font-size="8" fill="#2c3e55" font-weight="600">Santo Amaro</text>
+        <text x="272" y="278" font-family="Arial" font-size="7.5" fill="#778899">ISM 2,28</text>
+        <line x1="25" y1="289" x2="35" y2="289" stroke="#007f8c" stroke-width="1.5" stroke-dasharray="3,2"/>
+        <text x="38" y="293" font-family="Arial" font-size="8" fill="#2c3e55" font-weight="600">H. de Campos</text>
+        <text x="112" y="293" font-family="Arial" font-size="7.5" fill="#778899">ISM 2,68</text>
+        <line x1="193" y1="289" x2="203" y2="289" stroke="#2563ae" stroke-width="2" stroke-dasharray="7,3"/>
+        <text x="206" y="293" font-family="Arial" font-size="8" fill="#2c3e55" font-weight="600">Tutóia</text>
+        <text x="238" y="293" font-family="Arial" font-size="7.5" fill="#778899">ISM 3,28</text>
       </svg>
-      <p class="fig-caption">Figura 3 — Radar ISM-ODS por município: comparativo entre scores por eixo ODS. Escala 1–5.</p>
+      <p class="fig-caption">Figura 3 — Radar ISM-ODS: scores por ODS dos 4 municípios-piloto vs. meta Agenda 2030 (ISM ≥ 4,0). Escala 1–5.</p>
     </div>
   </div>
 
@@ -521,47 +521,42 @@
           <rect x="142" y="108" width="15" height="62" fill="#88d0a8" rx="2"/>
           <rect x="160" y="80" width="15" height="90" fill="#2563ae" rx="2" opacity="0.8"/>
         </g>
-        <!-- ODS 11: SL=2.8, SA=2.5, HC=2.0, T=3.5 -->
-        <!-- 2.8→ 30+84=114, h=56; 2.5→30+91=121,h=49; 2.0→30+105=135,h=35; 3.5→30+63=93,h=77 -->
+        <!-- ODS 11: SL=2.8, SA=2.4, HC=2.0, T=3.4 -->
+        <!-- y_top=170-score/5*140; h=score/5*140 -->
+        <!-- SL:2.8→h=78,y=92; SA:2.4→h=67,y=103; HC:2.0→h=56,y=114; T:3.4→h=95,y=75 -->
         <g>
           <text x="245" y="182" font-family="Arial" font-size="8.5" fill="#445566" text-anchor="middle">ODS 11</text>
-          <rect x="206" y="114" width="15" height="56" fill="#2e8b57" rx="2"/>
-          <rect x="224" y="121" width="15" height="49" fill="#5aaf80" rx="2"/>
-          <rect x="242" y="135" width="15" height="35" fill="#88d0a8" rx="2"/>
-          <rect x="260" y="93" width="15" height="77" fill="#2563ae" rx="2" opacity="0.8"/>
+          <rect x="206" y="92" width="15" height="78" fill="#2e8b57" rx="2"/>
+          <rect x="224" y="103" width="15" height="67" fill="#5aaf80" rx="2"/>
+          <rect x="242" y="114" width="15" height="56" fill="#88d0a8" rx="2"/>
+          <rect x="260" y="75" width="15" height="95" fill="#2563ae" rx="2" opacity="0.8"/>
         </g>
-        <!-- ODS 13: SL=2.6, SA=2.3, HC=2.8, T=3.6 -->
-        <!-- 2.6→ 30+87.2=117.2,h=52.8; 2.3→30+94.4=124.4,h=45.6; 2.8→30+84=114,h=56; 3.6→30+59.2=89.2,h=80.8 -->
+        <!-- ODS 13: SL=2.6, SA=2.2, HC=2.8, T=3.6 -->
+        <!-- SL:2.6→h=73,y=97; SA:2.2→h=62,y=108; HC:2.8→h=78,y=92; T:3.6→h=101,y=69 -->
         <g>
           <text x="345" y="182" font-family="Arial" font-size="8.5" fill="#445566" text-anchor="middle">ODS 13</text>
-          <rect x="306" y="117" width="15" height="53" fill="#2e8b57" rx="2"/>
-          <rect x="324" y="124" width="15" height="46" fill="#5aaf80" rx="2"/>
-          <rect x="342" y="114" width="15" height="56" fill="#88d0a8" rx="2"/>
-          <rect x="360" y="89" width="15" height="81" fill="#2563ae" rx="2" opacity="0.8"/>
+          <rect x="306" y="97" width="15" height="73" fill="#2e8b57" rx="2"/>
+          <rect x="324" y="108" width="15" height="62" fill="#5aaf80" rx="2"/>
+          <rect x="342" y="92" width="15" height="78" fill="#88d0a8" rx="2"/>
+          <rect x="360" y="69" width="15" height="101" fill="#2563ae" rx="2" opacity="0.8"/>
         </g>
-        <!-- ODS 14: SL=2.2, SA=2.6, HC=3.0, T=2.8 -->
-        <!-- 2.2→30+78.4=108.4,h=61.6; 2.6→30+87.2=117.2,h=52.8; 3.0→30+98=128,h=42; 2.8→30+84=114,h=56 -->
-        <!-- Wait, y=30+(5-score)/5*140. 3.0→ 30+(2/5)*140=30+56=86, h=84. Let me recalc -->
-        <!-- y_top = 30+(5-score)/5*140; height = score/5*140 -->
-        <!-- SL: 2.2 → top=30+78.4=108.4, h=61.6 -->
-        <!-- SA: 2.6 → top=30+67.2=97.2, h=72.8 -->
-        <!-- HC: 3.0 → top=30+56=86, h=84 -->
-        <!-- T: 2.8 → top=30+61.6=91.6, h=78.4 -->
+        <!-- ODS 14: SL=3.0, SA=2.6, HC=3.4, T=2.8 -->
+        <!-- SL:3.0→h=84,y=86; SA:2.6→h=73,y=97; HC:3.4→h=95,y=75; T:2.8→h=78,y=92 -->
         <g>
           <text x="445" y="182" font-family="Arial" font-size="8.5" fill="#445566" text-anchor="middle">ODS 14</text>
-          <rect x="406" y="108" width="15" height="62" fill="#2e8b57" rx="2"/>
+          <rect x="406" y="86" width="15" height="84" fill="#2e8b57" rx="2"/>
           <rect x="424" y="97" width="15" height="73" fill="#5aaf80" rx="2"/>
-          <rect x="442" y="86" width="15" height="84" fill="#88d0a8" rx="2"/>
+          <rect x="442" y="75" width="15" height="95" fill="#88d0a8" rx="2"/>
           <rect x="460" y="92" width="15" height="78" fill="#2563ae" rx="2" opacity="0.8"/>
         </g>
-        <!-- ODS 17: SL=3.2, SA=2.4, HC=2.9, T=3.4 -->
-        <!-- SL: top=30+50.4=80.4, h=89.6; SA: top=30+72.8=102.8, h=67.2; HC: top=30+58.8=88.8, h=81.2; T: top=30+45.6=75.6, h=94.4 -->
+        <!-- ODS 17: SL=3.2, SA=2.4, HC=3.0, T=3.4 -->
+        <!-- SL:3.2→h=90,y=80; SA:2.4→h=67,y=103; HC:3.0→h=84,y=86; T:3.4→h=95,y=75 -->
         <g>
           <text x="545" y="182" font-family="Arial" font-size="8.5" fill="#445566" text-anchor="middle">ODS 17</text>
           <rect x="506" y="80" width="15" height="90" fill="#2e8b57" rx="2"/>
           <rect x="524" y="103" width="15" height="67" fill="#5aaf80" rx="2"/>
-          <rect x="542" y="89" width="15" height="81" fill="#88d0a8" rx="2"/>
-          <rect x="560" y="76" width="15" height="94" fill="#2563ae" rx="2" opacity="0.8"/>
+          <rect x="542" y="86" width="15" height="84" fill="#88d0a8" rx="2"/>
+          <rect x="560" y="75" width="15" height="95" fill="#2563ae" rx="2" opacity="0.8"/>
         </g>
         <!-- Legend -->
         <rect x="92" y="30" width="10" height="8" fill="#2e8b57" rx="1"/>
