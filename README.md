@@ -112,17 +112,10 @@ The platform maps accessible funding calls based on the municipality's ISM score
 
 ## Research Team
 
-**Profa. Dra. Darliane Ribeiro Cunha, PhD** — Principal Investigator
-Universidade Federal do Maranhão (UFMA) · Full Professor since 2010
-darliane.cunha@ufma.br
+**Profa. Dra. Darliane Ribeiro Cunha** 
+darlianerc@gmail.com
 Research areas: sustainability governance, maritime AI, SDG analytics, environmental monitoring
-
-**Prof. Clóvis Oliveira** — Collaborator
-Universidade Federal do Maranhão (UFMA)
-clovis.oliveira@ufma.br
-
-Departments: Electrical Engineering · Accounting Sciences · Computer Science · Administration
-
+=
 ---
 
-Data sources are open-access public datasets from Brazilian federal institutions. Platform code and ISM-SDG methodology © UFMA / Darliane Ribeiro Cunha & Clóvis Oliveira, 2025–2026.
+Data sources are open-access public datasets from Brazilian federal institutions. Platform code and ISM-SDG methodology / Darliane Ribeiro Cunha, 2025–2026.
