@@ -110,12 +110,4 @@ The platform maps accessible funding calls based on the municipality's ISM score
 
 ---
 
-## Research Team
-
-**Profa. Dra. Darliane Ribeiro Cunha** 
-darlianerc@gmail.com
-Research areas: sustainability governance, maritime AI, SDG analytics, environmental monitoring
-=
----
-
 Data sources are open-access public datasets from Brazilian federal institutions. Platform code and ISM-SDG methodology / Darliane Ribeiro Cunha, 2025–2026.
