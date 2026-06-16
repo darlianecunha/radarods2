@@ -5,8 +5,6 @@
 
 [![Live App](https://img.shields.io/badge/Live%20App-radarods.vercel.app-blue)](https://radarods.vercel.app/)
 [![SDGs](https://img.shields.io/badge/SDGs-7%20·%2011%20·%2013%20·%2014%20·%2017-green)](https://sdgs.un.org/goals)
-[![Marine Policy 2025](https://img.shields.io/badge/Paper-Marine%20Policy%202025-orange)](https://sdgporthub.com)
-[![UFMA](https://img.shields.io/badge/Institution-UFMA-purple)](https://www.ufma.br)
 
 ---
 
