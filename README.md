@@ -1,18 +1,18 @@
-[README.md](https://github.com/user-attachments/files/28936075/README.md)
 # Radar ODS — Sustainable Municipalities of Maranhão
 
-**ISM-SDG Platform for Municipalities of the Maranhão Equatorial Margin · UFMA**
+**ISM-SDG Platform for the 27 Coastal Municipalities of the Maranhão Equatorial Margin · UFMA**
 
 [![Live App](https://img.shields.io/badge/Live%20App-radarods.vercel.app-blue)](https://radarods.vercel.app/)
 [![SDGs](https://img.shields.io/badge/SDGs-7%20·%2011%20·%2013%20·%2014%20·%2017-green)](https://sdgs.un.org/goals)
+[![Municipalities](https://img.shields.io/badge/Coverage-27%20Coastal%20Municipalities-darkgreen)](https://radarods.vercel.app/)
 
 ---
 
 ## Overview
 
-Radar ODS is an open-access decision-support platform that measures and visualises SDG maturity in coastal municipalities of the Maranhão Equatorial Margin, Brazil. It applies the **ISM-SDG methodology** (Cunha et al., 2025, *Marine Policy*) — originally developed for Brazilian ports — to four pilot municipalities: **São Luís, Santo Amaro, Humberto de Campos, and Tutóia**.
+Radar ODS is an open-access decision-support platform that measures and visualises SDG maturity in the **27 coastal municipalities of the Maranhão Equatorial Margin**, Brazil. It applies the **ISM-SDG methodology** (Cunha et al., 2025, *Marine Policy*) — originally developed for Brazilian ports — adapted to the municipal context.
 
-The platform translates official open data into a composite index (scale 1–5) across five SDGs, enabling municipal managers to diagnose gaps, simulate policy interventions, and identify accessible climate-finance opportunities.
+The platform provides complete ISM diagnostic for four pilot municipalities (**São Luís, Santo Amaro, Humberto de Campos, and Tutóia**), with partial data progressively integrated for the remaining 23 municipalities. It translates official open data into a composite index (scale 1–5) across five SDGs, enabling municipal managers to diagnose gaps, simulate policy interventions, and identify accessible climate-finance opportunities.
 
 ---
 
@@ -20,9 +20,9 @@ The platform translates official open data into a composite index (scale 1–5) 
 
 **Area 1 — Diagnostic (ISM Module)**
 - ISM-SDG score per municipality and per SDG, on a 1–5 maturity scale
-- Interactive radar chart visualising SDG performance
+- Interactive radar chart visualising SDG performance across all 27 coastal municipalities
 - Gap analysis against the 2030 Agenda target (ISM = 4.0)
-- Comparative ranking across all four pilot municipalities
+- Comparative ranking and benchmarking between municipalities
 
 **Area 2 — Decision Support**
 - Real-time simulation: adjust SDG indicators via sliders and observe the impact on the ISM score
@@ -31,7 +31,7 @@ The platform translates official open data into a composite index (scale 1–5) 
 - Field diagnostic questionnaire to complement and validate official data
 
 **Additional Modules**
-- Collaborative network: cross-municipality exchange of best practices
+- Collaborative network: cross-municipality exchange of best practices across all 27 municipalities
 - Reference panel: methodology documentation and full source list
 
 ---
@@ -83,7 +83,9 @@ All data are open-access official Brazilian sources (2022–2024):
 
 ---
 
-## Pilot Municipalities
+## Coverage — 27 Coastal Municipalities
+
+The platform covers the 27 coastal municipalities of the Maranhão Equatorial Margin. The four pilot municipalities below have complete ISM-SDG data; the remaining 23 are in progressive integration.
 
 | Municipality | Highlight | Priority SDGs |
 |-------------|-----------|---------------|
@@ -108,15 +110,19 @@ The platform maps accessible funding calls based on the municipality's ISM score
 
 ---
 
-## Principal Investigator
+## Research Team
 
-**Profa. Dra. Darliane Ribeiro Cunha, PhD**
+**Profa. Dra. Darliane Ribeiro Cunha, PhD** — Principal Investigator
 Universidade Federal do Maranhão (UFMA) · Full Professor since 2010
-Post-doctorate: Erasmus University Rotterdam (2024–2025)
+darliane.cunha@ufma.br
 Research areas: sustainability governance, maritime AI, SDG analytics, environmental monitoring
+
+**Prof. Clóvis Oliveira** — Collaborator
+Universidade Federal do Maranhão (UFMA)
+clovis.oliveira@ufma.br
+
+Departments: Electrical Engineering · Accounting Sciences · Computer Science · Administration
 
 ---
 
-
-
-Data sources are open-access public datasets from Brazilian federal institutions. Platform code and ISM-SDG methodology © UFMA / Darliane Ribeiro Cunha, 2025–2026.
+Data sources are open-access public datasets from Brazilian federal institutions. Platform code and ISM-SDG methodology © UFMA / Darliane Ribeiro Cunha & Clóvis Oliveira, 2025–2026.
